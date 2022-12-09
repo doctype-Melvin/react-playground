@@ -19,4 +19,10 @@ Ternary expressions are allowed in `{ }`.
 ## Props
 Props are passed to components to configure them.
 The `properties` or `props` is declared in the React Component. 
-Hence there is no need to declare ore define it anywhere.
+Hence there is no need to declare or define it anywhere.
+Prop types: used to validate props. It's good practice to declare propTypes in the component's file.
+<Component>.propTypes = {
+    property: React.PropTypes.string
+    ...
+}
+Enfore correct usage of props. 

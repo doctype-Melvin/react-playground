@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactPropTypes } from "react";
 
 export class Main extends React.Component {
     render () {
@@ -23,9 +24,15 @@ export class Main extends React.Component {
                     </p>
                     {/* Insert dynamic data below */}
                     { message }
-                    <p>I know you are {this.props.name} and you're {this.props.age} years old. </p>
+                    <p>I know you are {this.props.name} and you're {this.props.age} years old.{"\n"} I know this because I've got some props! </p>
                 </div>
+                {this.props.children}
             </div>
         )
     }
 }
+
+// Main.ReactPropTypes = {
+//     name: ReactPropTypes.string,
+//     age: ReactPropTypes.number,
+// }
