@@ -3,7 +3,7 @@ import React from "react";
 export class Main extends React.Component {
     render () {
         return (
-            <div>
+            <div className="mainSection">
                 <h2 className="title">This is a title</h2>
                 <div className="textCt">
                     <p className="para">
