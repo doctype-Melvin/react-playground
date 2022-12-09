@@ -88,6 +88,7 @@ body, html {
 
 .para {
   text-align: justify;
+  font-size: 1.25rem;
 }
 
 .footerCt {

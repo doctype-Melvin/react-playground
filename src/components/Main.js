@@ -2,6 +2,10 @@ import React from "react";
 
 export class Main extends React.Component {
     render () {
+        let message = ''
+        if (true) {
+            message = <p> This is some dynamic string ! </p>
+        }
         return (
             <div className="mainSection">
                 <h2 className="title">This is a title</h2>
@@ -17,6 +21,9 @@ export class Main extends React.Component {
                     JavaScript tutorial to check your knowledge level and enable you to follow along this guide without getting lost. It might take you between 30 minutes and an hour,
                     but as a result you won’t have to feel like you’re learning both React and JavaScript at the same time.
                     </p>
+                    {/* Insert dynamic data below */}
+                    { message }
+                    <p>I know you are {this.props.name} and you're {this.props.age} years old. </p>
                 </div>
             </div>
         )

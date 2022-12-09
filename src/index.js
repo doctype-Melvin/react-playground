@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Header />
     <App />
-    <Main />
+    <Main name={'Melvin'} age={35} />
     <Footer />
   </React.StrictMode>
 );

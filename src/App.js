@@ -6,7 +6,7 @@ class Greetings extends React.Component{
         return (
             <div className='box'>
                 <h2> Hello Melvin ! </h2>
-                <p> This is going to be an awesome <span class="day">Friday</span> ! </p>
+                <p> This is going to be an awesome <span className="day">Friday</span> ! </p>
             </div>
         )
     }

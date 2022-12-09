@@ -11,3 +11,12 @@ Said in another way: The component's main method is the fact that there are bump
 indentations on every piece. That's the main functionality - you could piece together
 any Lego pieces you find.
 `Heads Up:` I'm willing to reassess this model the more I get to know React.
+
+## Dynamic data output
+Use `{ }` to output variables, strings, calculations or returned values.
+Ternary expressions are allowed in `{ }`.
+
+## Props
+Props are passed to components to configure them.
+The `properties` or `props` is declared in the React Component. 
+Hence there is no need to declare ore define it anywhere.
