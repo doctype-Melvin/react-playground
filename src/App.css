@@ -37,8 +37,12 @@
   }
 }
 
-.box {
+.box, .header, .nav {
   display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -46,4 +50,19 @@
 
 .day {
   color: magenta;
+}
+
+.header {
+  background-color: lightgray;
+}
+
+.nav {
+  min-width: 200px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.item > * {
+  text-decoration: none;
+  color: white;
 }
