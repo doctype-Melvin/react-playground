@@ -1,6 +1,12 @@
 # Learning and playing with React
 Components, state, props, render, functional and class components
 
+## Elements
+Elements describe what will be seen on the screen. 
+To render any given element, React needs a root DOM Element appenda given element. 
+
+
+
 ## Components
 My whole understanding of React.js is based on the image of a box full of Lego pieces.
 The fact that you can put together pieces of any shape represents the component part.
@@ -21,8 +27,3 @@ Props are passed to components to configure them.
 The `properties` or `props` is declared in the React Component. 
 Hence there is no need to declare or define it anywhere.
 Prop types: used to validate props. It's good practice to declare propTypes in the component's file.
-<Component>.propTypes = {
-    property: React.PropTypes.string
-    ...
-}
-Enfore correct usage of props. 
